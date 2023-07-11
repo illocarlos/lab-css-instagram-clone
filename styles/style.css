@@ -3,8 +3,104 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+img {
+  width: 100%;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image:url(./../images/bgtile.png) ;
+  background-repeat: repeat-x;
+}
+.uno{
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+
+
+}
+.imgPhone{
+  
+  margin-top: 6%;
+  width:  25%;
+}
+
+
+.dos{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 6%;
+  margin-left:5% ;
+
+}
+
+.text_logotipe{
+  background-color: white;
+   background-image: url(./../images/frame.png);
+  background-repeat: no-repeat;
+}
+.dos article{
+  margin-left:5% ;
+  background-color: white;
+}
+h1{
+  color: #1c5380;
+}
+.tres{
+  display: flex;
+  flex-flow:row nowrap ;
+  justify-content: space-between;
+}
+
+.cuatro{
+  display: flex;
+  flex-flow:row nowrap ;
+  margin-top: 25%;
+}
+.cuatro img{
+  width: 30%;
+}
+.imgGooglePlay{
+  margin-left:7% ;
+}
+.imageInstagram{
+  width: 50%;
+}
+.home{
+  width:30% ;
+  margin-top: 3px;
+  
+}
+.tres button{
+  background-image: linear-gradient(#1c5380,#06365f) ;
+ width: 20%;
+  display: flex;
+  flex-flow: row nowrap;
+ justify-content: space-around;
+  padding: 0;
+  height: 60% ;
+  margin-top:5px ;
+  border-color: ;
+}
+.tres span{
+  margin-top:5px ;
+}
+
+
+footer{
+  display: flex;
+  flex-flow:row nowrap ;
+  justify-content: center;
+  margin-top:3% ;
+}
+footer a{
+  margin-top:10px ;
+  margin-left: 7px;
+  text-decoration: none;
+}
+footer span{
+  margin-top:10px ;
+  margin-left:20px ;
 }
